@@ -1,5 +1,6 @@
 const Router = require('koa-router');
 const posts = require('./posts');
+const bodyParser = require('koa-bodyparser');
 
 const api = new Router();
 
